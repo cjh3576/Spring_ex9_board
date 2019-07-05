@@ -9,6 +9,7 @@ public class QnaDTO extends BoardDTO{
 	private int ref;
 	private int step;
 	private int depth;
+	//전체글의 갯수를 담을 변수 추가!
 	private ArrayList<FileDTO> files;
 	public int getRef() {
 		return ref;
